@@ -1,0 +1,874 @@
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .top__slider .glyphicon-chevron-left:before {
+	background: url(../img/left-arr-mini.png) no-repeat;
+	width: 15px;
+	height: 53px;
+  }
+  .top__slider .glyphicon-chevron-right:before {
+	background: url(../img/right-arr-mini.png) no-repeat;
+	width: 15px;
+	height: 53px;
+  }
+  #modal-form .form-close:before {
+	background: url(../img/close-mini.png);
+	width: 16px;
+	height: 16px;
+  }
+  .collapse.in .navbar-nav, .collapsing .navbar-nav {
+	margin: 0 0 0 15px;
+	background-color: rgba(1, 9, 37, .8);
+	padding-left: 15px;
+	z-index: 100;
+  }
+  .navbar-header .navbar-toggle {
+	margin-top: 0;
+	margin-right: 0;
+	position: absolute;
+	top: 71px;
+	right: 30px;
+  }
+  .navbar-default .navbar-collapse{
+	margin-top: 50px;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+  }
+  .header .navbar-brand {
+	float: none;
+	padding: 0;
+  }
+  .navbar-brand > img {
+	width: 280px;
+	margin-left: 25px;
+	margin-top: 15px;
+  }
+  .header .navbar-nav {
+	padding-top: 20px;
+  }
+  .header .navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+  }
+  .header .nav > li > a {
+	padding: 10px 7px;
+  }
+  .header span.phone {
+	line-height: 15px;
+	font-size: 13px;
+  }
+  .order {
+	margin-left: 0;
+	font-size: 9px;
+  }
+  .top__slider .img-responsive, .top__slider .thumbnail > img, .top__slider .thumbnail a > img, .top__slider .carousel-inner > .item > img, .top__slider .carousel-inner > .item > a > img {
+	height: 420px;
+  }
+  .header .navbar-default .navbar-form.navbar-right {
+	position: absolute;
+	top: 50px;
+	left: 95px;
+	display: block;
+	border-top: 0;
+	border-bottom: 0;
+	box-shadow: none;
+  }
+  .top__slider .carousel-caption {
+	top: 38%;
+  }
+  .top__slider .carousel-caption h1 {
+	font-size: 26px;
+	margin-bottom: 10px;
+  }
+  .top__slider .carousel-caption span {
+	font-size: 20px;
+  }
+  .try {
+	font-size: 12px;
+	padding: 9px 10px 6px 10px
+  }
+  .top__slider .carousel-indicators {
+	bottom: 15px;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-left {
+	left: 10%;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-right {
+	right: 10%;
+  }
+  .top__slider .carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+  }
+  .top__slider .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+	border-radius: 12px;
+  }
+  .section-title {
+	font-size: 30px;
+  }
+  .description {
+	font-size: 13px;
+	line-height: 16px;
+  }
+  .about .description {
+	margin-bottom: 50px;
+  }
+  .about span.title {
+	font-size: 20px;
+  }
+  .about span.text {
+	font-size: 15px;
+	margin-bottom: 50px;
+  }
+  .instructor .description {
+	margin-bottom: 30px;
+  }
+  .instructor .userpick {
+	margin: 0 auto 10px;
+	text-align: center;
+  }
+  .instructor .userpick img{
+	width: 130px;
+  }
+  .instructor .name {
+	font-size: 18px;
+  }
+  .instructor .information p {
+	font-size: 12px;
+	line-height: 15px;
+	margin-bottom: 10px;
+  }
+  .training .form-of-training {
+	padding: 35px 30px 30px;
+	margin: 0 auto 30px;
+  }
+  .training .form-of-training .name {
+	font-size: 28px;
+	margin-bottom: 10px;
+  }
+  .training .form-of-training .text {
+	font-size: 16px;
+  }
+  .training .form-of-training .price {
+	font-size: 22px;
+  }
+  .training .form-of-training .rub {
+	font-size: 22px;
+  }
+  .practice {
+	padding: 30px 0 40px;
+	background: url(../img/bg-section-3.png) 0 0 repeat-y;
+  }
+  .practice .practices {
+	padding: 35px 20px 30px;
+	margin: 0 auto 30px;
+  }
+  .practice .practices .text {
+	font-size: 15px;
+	height: 100px;
+  }
+  .practice .practices .name {
+	font-size: 28px;
+  }
+  .practice .practices .price {
+	font-size: 22px;
+  }
+  .practice .small__title {
+	font-size: 16px;
+	line-height: 18px;
+  }
+  .practice p {
+	font-size: 13px;
+	line-height: 18px;
+  }
+  .offer {
+	padding: 20px 0 20px;
+  }
+  .offer .info {
+	font-size: 15px;
+	line-height: 18px;
+  }
+  .offer .bonus {
+	font-size: 25px;
+  }
+  .fleet {
+	padding: 40px 0 60px;
+  }
+  .fleet .yacht {
+	margin: 0 auto;
+  }
+  .fleet .description {
+	margin-bottom: 50px;
+  }
+  .fleet figure figcaption .name {
+	font-size: 17px;
+  }
+  .fleet figure figcaption li {
+	font-size: 14px;
+	line-height: 16px;
+  }
+  .additional__courses {
+	background: url(../img/bg-section-3.png) 0 0 repeat-y;
+  }
+  .additional__courses .course {
+	padding: 35px 20px 45px;
+	margin: 0 auto 30px;
+  }
+  .additional__courses .course .name {
+	font-size: 28px;
+	height: 80px;
+  }
+  .additional__courses .course .text {
+	font-size: 16px;
+	line-height: 18px;
+	height: 60px;
+  }
+  .additional__courses .course .price {
+	font-size: 22px;
+  }
+  .additional__courses .course .rub {
+	font-size: 22px;
+  }
+  .order-form {
+	font-size: 16px;
+  }
+  .feadback .contact__information li {
+	font-size: 14px;
+	line-height: 25px;
+  }
+  .feadback .contact__information .mail span {
+	top: 5px;
+  }
+  .feadback .contact__information .phone span {
+	top: 0;
+  }
+  .feadback .contact__information .map span {
+	top: 0;
+  }
+  .feadback .contact__information .title {
+	font-size: 22px;
+	line-height: 25px;
+  }
+  #feadback-form input.input__name,
+  #feadback-form input.input__mail{
+	height: 35px;
+	font-size: 15px;
+	max-width: 275px;
+	margin-bottom: 10px;
+	margin-right: 0;
+  }
+  #feadback-form textarea{
+	max-width: 275px;
+	height: 140px;
+	font-size: 15px;
+	margin: 0 auto 10px;
+  }
+  .feadback .contact__information {
+	margin-bottom: 40px;
+  }
+  .btn-send {
+	max-width: 170px;
+	height: 40px;
+	font-size: 16px;
+	margin:0 auto;
+  }
+  .footer nav li > a {
+	font-size: 9px;
+  }
+  .footer figure .brand{
+	width: 60px;
+	margin: 0 auto;
+  }
+  #modal-form {
+	max-width: 300px;
+	height: auto;
+  }
+  #modal-form .heading {
+	font-size: 30px;
+  }
+  #modal-form input.input__name,
+  #modal-form input.input__mail{
+	max-width: 300px;
+	height: 35px;
+	font-size: 16px;
+  }
+  #modal-form textarea {
+	height: 140px;
+	font-size: 16px;
+	padding: 15px 20px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .top__slider .glyphicon-chevron-left:before {
+	background: url(../img/left-arr-mini.png) no-repeat;
+	width: 15px;
+	height: 53px;
+  }
+  .top__slider .glyphicon-chevron-right:before {
+	background: url(../img/right-arr-mini.png) no-repeat;
+	width: 15px;
+	height: 53px;
+  }
+  #modal-form .form-close:before {
+	background: url(../img/close-mini.png);
+	width: 16px;
+	height: 16px;
+  }
+  .collapse.in .navbar-nav, .collapsing .navbar-nav {
+	margin: 0 0 0 15px;
+	background-color: rgba(1, 9, 37, .8);
+	padding-left: 15px;
+	z-index: 100;
+  }
+  .navbar-header .navbar-toggle {
+	margin-top: 30px;
+	margin-right: 25px;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+  }
+  .navbar-brand > img {
+	width: 250px;
+	margin-left: 10px;
+  }
+  .header .navbar-brand {
+	padding: 25px 10px;
+  }
+  .header .navbar-nav {
+	padding-top: 20px;
+  }
+  .header .navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+  }
+  .header .nav > li > a {
+	padding: 10px 7px;
+  }
+  .header span.phone {
+	line-height: 15px;
+	font-size: 13px;
+  }
+  .order {
+	margin-left: 0;
+	font-size: 9px;
+  }
+  .top__slider .img-responsive, .top__slider .thumbnail > img, .top__slider .thumbnail a > img, .top__slider .carousel-inner > .item > img, .top__slider .carousel-inner > .item > a > img {
+	height: 520px;
+  }
+  .header .navbar-default .navbar-form.navbar-right {
+	position: absolute;
+	top: 5px;
+	right: 70px;
+	display: block;
+	border-top: 0;
+	border-bottom: 0;
+	box-shadow: none;
+  }
+  .top__slider .carousel-caption {
+	top: 36%;
+  }
+  .top__slider .carousel-caption h1 {
+	font-size: 35px;
+	margin-bottom: 10px;
+  }
+  .top__slider .carousel-caption span {
+	font-size: 20px;
+  }
+  .try {
+	font-size: 14px;
+	padding: 9px 10px 6px 10px
+  }
+  .top__slider .carousel-indicators {
+	bottom: 15px;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-left {
+	left: 10%;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-right {
+	right: 10%;
+  }
+  .top__slider .carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+  }
+  .top__slider .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+	border-radius: 12px;
+  }
+  .section-title {
+	font-size: 35px;
+  }
+  .description {
+	font-size: 15px;
+	line-height: 18px;
+  }
+  .about span.title {
+	font-size: 25px;
+  }
+  .about span.text {
+	font-size: 16px;
+	margin-bottom: 60px;
+  }
+  .instructor .description {
+	margin-bottom: 30px;
+  }
+  .instructor .userpick {
+	margin: 0 auto 10px;
+	text-align: center;
+  }
+  .instructor .userpick img{
+	width: 170px;
+  }
+  .instructor .name {
+	font-size: 20px;
+  }
+  .instructor .information p {
+	font-size: 14px;
+	line-height: 16px;
+	margin-bottom: 15px;
+  }
+  .training .form-of-training {
+	padding: 35px 30px 30px;
+	margin: 0 auto 30px;
+  }
+  .training .form-of-training .name {
+	font-size: 28px;
+	margin-bottom: 10px;
+  }
+  .training .form-of-training .text {
+	font-size: 16px;
+  }
+  .training .form-of-training .price {
+	font-size: 22px;
+  }
+  .training .form-of-training .rub {
+	font-size: 22px;
+  }
+  .practice {
+	padding: 30px 0 40px;
+	background: url(../img/bg-section-3.png) 0 0 repeat-y;
+  }
+  .practice .practices {
+	padding: 35px 20px 30px;
+	margin: 0 auto 30px;
+  }
+  .practice .practices .text {
+	font-size: 15px;
+  }
+  .practice .practices .name {
+	font-size: 28px;
+  }
+  .practice .practices .price {
+	font-size: 22px;
+  }
+  .practice .small__title {
+	font-size: 16px;
+	line-height: 18px;
+  }
+  .practice p {
+	font-size: 13px;
+	line-height: 18px;
+  }
+  .offer {
+	padding: 30px 0 30px;
+  }
+  .offer .info {
+	font-size: 18px;
+	line-height: 25px;
+  }
+  .offer .bonus {
+	font-size: 40px;
+  }
+  .fleet {
+	padding: 40px 0 60px;
+  }
+  .fleet .yacht {
+	margin: 0 auto;
+  }
+  .fleet .description {
+	margin-bottom: 50px;
+  }
+  .fleet figure figcaption .name {
+	font-size: 17px;
+  }
+  .fleet figure figcaption li {
+	font-size: 14px;
+	line-height: 16px;
+  }
+  .additional__courses {
+	background: url(../img/bg-section-3.png) 0 0 repeat-y;
+  }
+  .additional__courses .course {
+	padding: 35px 20px 45px;
+	margin: 0 auto 30px;
+  }
+  .additional__courses .course .name {
+	font-size: 28px;
+  }
+  .additional__courses .course .text {
+	font-size: 16px;
+	line-height: 18px;
+	height: 60px;
+  }
+  .additional__courses .course .price {
+	font-size: 22px;
+  }
+  .additional__courses .course .rub {
+	font-size: 22px;
+  }
+  .order-form {
+	font-size: 16px;
+  }
+  .feadback .contact__information li {
+	font-size: 14px;
+  }
+  .feadback .contact__information .title {
+	font-size: 22px;
+	line-height: 25px;
+  }
+  #feadback-form input.input__name,
+  #feadback-form input.input__mail{
+	height: 35px;
+	font-size: 15px;
+	max-width: 213px;
+  }
+  #feadback-form textarea{
+	height: 140px;
+	font-size: 15px;
+	margin: 0 auto 10px;
+	max-width: 450px;
+  }
+  .feadback .contact__information {
+	margin-bottom: 40px;
+  }
+  .btn-send {
+	max-width: 170px;
+	height: 40px;
+	font-size: 16px;
+	margin: 0 auto;
+  }
+  .footer nav li > a {
+	font-size: 9px;
+  }
+  .footer figure .brand{
+	width: 60px;
+	margin: 0 auto;
+  }
+  #modal-form {
+	max-width: 450px;
+	height: auto;
+  }
+  #modal-form .heading {
+	font-size: 30px;
+  }
+  #modal-form input.input__name,
+  #modal-form input.input__mail{
+	max-width: 215px;
+	height: 35px;
+	font-size: 16px;
+  }
+  #modal-form textarea {
+	height: 140px;
+	font-size: 16px;
+	padding: 15px 20px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-brand > img {
+	width: 190px;
+	margin-left: 10px;
+  }
+  .header .navbar-brand {
+	padding: 25px 10px;
+  }
+  .header .navbar-nav {
+	padding-top: 20px;
+  }
+  .header .navbar-default .navbar-nav > li > a {
+	font-size: 10px;
+  }
+  .header .nav > li > a {
+	padding: 10px 3px;
+  }
+  .header span.phone {
+	line-height: 20px;
+	font-size: 14px;
+  }
+  .order {
+	margin-left: 0;
+	font-size: 10px;
+  }
+  .top__slider .img-responsive, .top__slider .thumbnail > img, .top__slider .thumbnail a > img, .top__slider .carousel-inner > .item > img, .top__slider .carousel-inner > .item > a > img {
+	height: 620px;
+  }
+  .header .navbar-default .navbar-form {
+	margin-right: 10px;
+  }
+  .top__slider .carousel-caption h1 {
+	font-size: 40px;
+  }
+  .top__slider .carousel-caption span {
+	font-size: 28px;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-left {
+	left: 10%;
+  }
+  .top__slider .carousel-control .glyphicon-chevron-right {
+	right: 10%;
+  }
+  .top__slider .carousel-indicators .active {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+  }
+  .top__slider .carousel-indicators li {
+	width: 12px;
+	height: 12px;
+	margin: 0 6px 0 0;
+	border-radius: 12px;
+  }
+  .section-title {
+	font-size: 35px;
+  }
+  .description {
+	font-size: 15px;
+	line-height: 18px;
+  }
+  .about span.title {
+	font-size: 25px;
+  }
+  .about span.text {
+	font-size: 16px;
+	margin-bottom: 75px;
+  }
+  .instructor .name {
+	font-size: 25px;
+  }
+  .instructor .information p {
+	font-size: 15px;
+	line-height: 18px;
+	margin-bottom: 20px;
+  }
+  .training .form-of-training {
+	padding: 20px 15px 30px;
+  }
+  .training .form-of-training .name {
+	font-size: 25px;
+	margin-bottom: 10px;
+  }
+  .training .form-of-training .text {
+	font-size: 16px;
+  }
+  .training .form-of-training .price {
+	font-size: 20px;
+  }
+  .training .form-of-training .rub {
+	font-size: 20px;
+  }
+  .practice {
+	padding: 30px 0 40px;
+  }
+  .practice .practices {
+	padding: 30px 5px 30px;
+  }
+  .practice .practices .text {
+	height: 115px;
+	font-size: 15px;
+  }
+  .practice .practices .name {
+	font-size: 25px;
+	height: 70px;
+  }
+  .practice .practices .price {
+	font-size: 20px;
+  }
+  .practice .small__title {
+	font-size: 18px;
+	line-height: 20px;
+  }
+  .practice p {
+	font-size: 13px;
+	line-height: 18px;
+  }
+  .offer {
+	padding: 30px 0 30px;
+  }
+  .offer .info {
+	font-size: 18px;
+	line-height: 25px;
+  }
+  .offer .bonus {
+	font-size: 40px;
+  }
+  .fleet {
+	padding: 40px 0 60px;
+  }
+  .fleet .yacht {
+	margin: 0 auto;
+  }
+  .fleet .description {
+	margin-bottom: 50px;
+  }
+  .fleet figure figcaption .name {
+	font-size: 16px;
+	height: 40px;
+  }
+  .fleet figure figcaption li {
+	font-size: 14px;
+	line-height: 16px;
+  }
+  .additional__courses .course {
+	padding: 30px 10px 45px;
+  }
+  .additional__courses .course .name {
+	font-size: 25px;
+	height: 70px;
+  }
+  .additional__courses .course .text {
+	font-size: 15px;
+	line-height: 18px;
+	height: 90px;
+  }
+  .additional__courses .course .price {
+	font-size: 20px;
+  }
+  .additional__courses .course .rub {
+	font-size: 20px;
+  }
+  .order-form {
+	font-size: 16px;
+  }
+  .feadback .contact__information li {
+	font-size: 14px;
+  }
+  .feadback .contact__information .title {
+	font-size: 22px;
+	line-height: 25px;
+  }
+  #feadback-form input.input__name,
+  #feadback-form input.input__mail{
+	height: 40px;
+	font-size: 15px;
+	max-width: 168px;
+  }
+  #feadback-form textarea{
+	height: 140px;
+	font-size: 15px;
+  }
+  .btn-send {
+	max-width: 170px;
+	height: 40px;
+	font-size: 16px;
+  }
+  .footer nav li > a {
+	font-size: 12px;
+  }
+  .footer figure .brand{
+	width: 60px;
+  }
+  #modal-form {
+	max-width: 480px;
+	height: auto;
+  }
+  #modal-form .heading {
+	font-size: 35px;
+  }
+  #modal-form input.input__name,
+  #modal-form input.input__mail{
+	max-width: 235px;
+	height: 40px;
+	font-size: 16px;
+  }
+  #modal-form textarea {
+	height: 150px;
+	font-size: 16px;
+	padding: 15px 20px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .navbar-brand > img {
+	width: 200px;
+  }
+  .header .navbar-default .navbar-nav > li > a {
+	font-size: 12px;
+  }
+  .header .nav > li > a {
+	padding: 10px 10px;
+  }
+  .header .navbar-default .navbar-form.navbar-right {
+	right: 15px;
+  }
+  .header span.phone {
+	line-height: 26px;
+	font-size: 18px;
+  }
+  .order {
+	margin-left: 0;
+	font-size: 13px;
+  }
+  .header .navbar-default .navbar-form {
+	margin-right: 10px;
+  }
+  .training .form-of-training {
+	padding: 40px 35px 50px;
+  }
+  .practice .practices {
+	padding: 40px 10px 50px;
+  }
+  .practice .practices .text {
+	height: 115px;
+  }
+  .practice .practices .name {
+	font-size: 28px;
+  }
+  .fleet figure figcaption .name {
+	font-size: 16px;
+	height: 40px;
+  }
+  .fleet figure figcaption li {
+	font-size: 14px;
+	line-height: 16px;
+  }
+  .additional__courses .course {
+	padding: 40px 15px 55px;
+  }
+  .additional__courses .course .name {
+	font-size: 28px;
+  }
+  .feadback .contact__information li {
+	font-size: 16px;
+  }
+  .feadback .contact__information .title {
+	font-size: 28px;
+	line-height: 30px;
+  }
+  #feadback-form input.input__name,
+  #feadback-form input.input__mail {
+	height: 48px;
+	font-size: 16px;
+	max-width: 223px;
+  }
+  #feadback-form textarea {
+	height: 170px;
+	font-size: 16px;
+  }
+  .btn-send {
+	max-width: 220px;
+	height: 50px;
+	font-size: 18px;
+  }
+  .footer nav li > a {
+	font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1920px) {
+
+}

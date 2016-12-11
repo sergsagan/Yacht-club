@@ -1,0 +1,158 @@
+#modal-form{
+  margin: auto;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -10%);
+  transform: translate(-50%, -10%);
+  width: 100%;
+  max-width: 570px;
+  height: 400px;
+  background-color: transparent;
+  z-index: 1045;
+  text-align: center;
+  padding: 0;
+  display: none;
+  opacity: 0;
+  color: $light-color;
+
+  input.input__name{
+    max-width: 280px;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    display: inline-block;
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    outline: none;
+    padding: 0 10px 0 40px;
+
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+
+  input.input__mail{
+    max-width: 280px;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    display: inline-block;
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    outline: none;
+    padding: 0 10px 0 40px;
+
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+
+  textarea{
+    display: block;
+    max-width: 570px;
+    width: 100%;
+    height: 189px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 25px 30px;
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+}
+
+#feadback-form{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 570px;
+  height: auto;
+  background-color: transparent;
+  z-index: 1045;
+  display: block;
+  text-align: center;
+  padding: 0;
+  color: $light-color;
+
+  input.input__name{
+    max-width: 272px;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    display: inline-block;
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url("../img/user.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    outline: none;
+    padding: 0 10px 0 40px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+
+  input.input__mail{
+    max-width: 272px;
+    width: 100%;
+    height: 54px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    display: inline-block;
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    background-image: url("../img/mail.png");
+    background-repeat: no-repeat;
+    background-position: 10px;
+    outline: none;
+    padding: 0 10px 0 40px;
+
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+
+  textarea{
+    display: block;
+    max-width: 570px;
+    width: 100%;
+    height: 189px;
+    background-color: white;
+    box-shadow: inset 0 0 9px rgba(0, 0, 2, 0.12);
+    color: $base-color;
+    font-family: $ML;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 25px 30px;
+    outline: none;
+    @include border-radius($radius: 4px);
+
+    @include placeholder($color: $base-color);
+  }
+}

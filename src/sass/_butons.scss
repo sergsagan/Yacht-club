@@ -1,0 +1,94 @@
+.try{
+  padding: 9px 16px 6px 16px;
+  box-sizing: border-box;
+  background-color: $light-color;
+  color: $btn-color;
+  font-family: $ML;
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include border-radius($radius: 4px);
+  @include transition(background-color .6s .3s, color .6s);
+
+  &:hover{
+    background-color: $stack-color;
+    color: $light-color;
+  }
+  &:focus{
+    background-color: darken($stack-color, 12%);
+    color: $light-color;
+  }
+}
+.order{
+  margin-left: 30px;
+  display: block;
+  padding: 6px 12px 4px 12px;
+  box-sizing: border-box;
+  background-color: $light-color;
+  color: $btn-color;
+  font-family: $ML;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include border-radius($radius: 4px);
+  @include transition(background-color .6s .3s, color .6s);
+
+  &:hover{
+    background-color: $stack-color;
+    color: $light-color;
+  }
+  &:focus{
+    background-color: darken($stack-color, 12%);
+    color: $light-color;
+  }
+}
+
+.btn-send{
+  display: block;
+  max-width: 280px;
+  width: 100%;
+  height: 64px;
+  background-color: $stack-color;
+  color: $light-color;
+  font-family: $ML;
+  font-size: 21px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: auto;
+  margin-right: 0;
+  @include border-radius($radius: 4px);
+  @include transition(background-color .6s .3s, color .6s);
+
+  &:hover{
+    background-color: darken($stack-color, 12%);
+    color: $light-color;
+  }
+  &:focus{
+    background-color: darken($stack-color, 12%);
+    color: $light-color;
+  }
+
+}
+.order-form{
+  display: block;
+  margin: 0 auto;
+  padding: 8px 35px 6px 35px;
+  box-sizing: border-box;
+  background-color: $base-color;
+  color: $light-color;
+  font-family: $ML;
+  font-size: 19px;
+  font-weight: 400;
+  text-transform: uppercase;
+  @include border-radius($radius: 4px);
+  @include transition(background-color .6s);
+
+  &:hover{
+    background-color: $stack-color;
+    color: $light-color;
+  }
+  &:focus{
+    background-color: darken($stack-color, 12%);
+    color: $light-color;
+  }
+}
